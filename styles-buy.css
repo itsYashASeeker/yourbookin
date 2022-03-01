@@ -1,0 +1,113 @@
+body{
+    margin: 0 0;
+    text-align: center;
+    font-family: Roboto Mono;
+    font-family: Balsamiq Sans;
+    font-size: 20px;
+    color: #9e6d4b;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin: 30 auto;
+    border: 0px;
+    width: 20%;
+    border-top: 1px solid #e4c2ab;
+} 
+.wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    height:auto; 
+    width:auto
+}
+    /* logo */
+    .yourbook{
+        width: 105px;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    /* Mid-bar */
+    .mid{
+        background-color: #FFFBE9;
+        text-align: center;
+        position: relative;
+        padding-top: 20px;
+        width: 100%;
+        height: 100%;
+        float: left;
+    }    
+        .heading{
+            margin: 0 auto;
+            font-family: Sacramento;
+            color: #AD8B73;
+            font-size: 50px;
+        }
+    /* low bar */
+    .low{
+        background-color:#9e6d4b;
+        width: 100%;
+        position: relative;
+        float: left;
+        color: #FFFBE9;
+        padding: 10px;
+    }
+        .instagram{
+            width: 40px;
+        }
+        .twitter{
+            width: 40px;
+        }   
+        
+/* main-bar */
+.top-bar{
+    float: left;
+    width: 70px;
+    height: 365px;
+    border-radius: 15px;
+    position: fixed;
+    left: 0px;
+    top: 90px;
+    background-image: linear-gradient(#00B4D8, #90E0EF, #CAF0F8);
+    opacity: 50%;
+}
+    /* home */
+    .home{
+        width: 50px;
+        position: fixed;
+        left: 9px;
+        top: 100px;
+    }
+    /* buy */
+    .buy{
+        width: 50px;
+        position: fixed;
+        left: 9px;
+        top: 170px;
+    }
+    /* sign-in */
+    .sign-in{
+        width: 50px;
+        position: fixed;
+        left: 9px;
+        top: 240px;
+    }
+    /* cart */
+    .cart{
+        width: 50px;
+        position: fixed;
+        left: 9px;
+        top: 310px;
+    }
+    /* rating */
+    .rating{
+        width: 50px;
+        position: fixed;
+        left: 9px;
+        top: 380px;
+    }
+    .top-bar:hover{
+        opacity: 100%;
+    }        
+        

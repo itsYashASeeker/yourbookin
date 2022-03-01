@@ -1,0 +1,139 @@
+body{
+    margin: 0 0;
+    text-align: center;
+    font-family: Roboto Mono;
+    font-family: Balsamiq Sans;
+    font-size: 20px;
+    color: #9e6d4b;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin: 30 auto;
+    border: 0px;
+    width: 20%;
+    border-top: 1px solid #e4c2ab;
+}
+.wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    height:auto; 
+    width:auto
+}
+    /* logo */
+    .yourbook{
+        width: 105px;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    /* main-bar */
+    .top-bar{
+        float: left;
+        width: 70px;
+        height: 365px;
+        border-radius: 15px;
+        position: fixed;
+        left: 0px;
+        top: 90px;
+        background-image: linear-gradient(#00B4D8, #90E0EF, #CAF0F8);
+        opacity: 50%;
+    }
+        /* home */
+        .home{
+            width: 50px;
+            position: fixed;
+            left: 9px;
+            top: 100px;
+        }
+        /* buy */
+        .buy{
+            width: 50px;
+            position: fixed;
+            left: 9px;
+            top: 170px;
+        }
+        /* sign-in */
+        .sign-in{
+            width: 50px;
+            position: fixed;
+            left: 9px;
+            top: 240px;
+        }
+        /* cart */
+        .cart{
+            width: 50px;
+            position: fixed;
+            left: 9px;
+            top: 310px;
+        }
+        /* rating */
+        .rating{
+            width: 50px;
+            position: fixed;
+            left: 9px;
+            top: 380px;
+        }
+        .top-bar:hover{
+            opacity: 100%;
+        }
+    /* flow on right corner */
+    .flow1{
+        position: absolute;
+        transform: rotate(270deg);
+        top: -20px;
+        right: 0px;
+    }
+    /* middle bar */
+    .mid{
+        background-color: #FFFBE9;
+        text-align: center;
+        position: relative;
+        padding-top: 20px;
+        float: left;
+    }
+        .heading{
+            margin: 0 auto;
+            font-family: Sacramento;
+            color: #AD8B73;
+            font-size: 50px;
+        }
+        /* Inner division part */
+        .innerdiv1{
+            height: 220px;
+        }
+            /* sticker */
+            .book-stack{
+                height: 100%;
+                width: 30px;
+                position: relative;
+                left: 350px;
+            }
+            .book{
+                height: 200px;
+            }
+            .descript{
+                font-family: Balsamiq Sans;
+                height: 200px;
+                width: 30%;
+                position:relative;
+                left: 600px;
+                bottom: 200px;
+            }          
+    /* low bar */
+    .low{
+        background-color:#9e6d4b;
+        position: relative;
+        width: 100%;
+        float: left;
+        color: #FFFBE9;
+        padding: 10px;
+    }
+        .instagram{
+            width: 40px;
+        }
+        .twitter{
+            width: 40px;
+        }
+    
